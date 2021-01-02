@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container >button{
+            border: 1px solid orangered;
+            padding: 10px 15px;
+            background-color: orangered;
+            color: white;
+            outline: none;
+        }
+        .container >button >a,.container >p >a{
+            color: white;
+            text-decoration: none;
+        }
+        .container >p{
+            display: inline-block;
+            padding: 10px;
+            background-color: cornflowerblue;
+            color: white;
+            font-family: sans-serif;
+            font-size: 15px;
+            outline: none;
+        }
+        .container >p:hover{
+            background-color: dodgerblue; 
+            cursor: pointer;         
+        }
+        .container >button:hover{
+            border: 1px solid red;
+            background-color: red; 
+            cursor: pointer;         
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button ><a title="Google" href="/google">+Google</a></button>
+        <p title="facebook"><a href="/facebook">Facebook</a></p>
+    </div>
+
+</body>
+</html>
